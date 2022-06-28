@@ -1,11 +1,13 @@
-
+.main_content{
+    display: flex;
+    flex-direction: column;
+}
 
 
 .write_main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 85%;
     font-weight: 700;
     font-size: 20px;
 
@@ -35,6 +37,9 @@
 }
 .bnt .btn-secondary{
     margin-left: 20px;
+}
+.write_main .w1{
+    margin-top: 40px;
 }
 
 
